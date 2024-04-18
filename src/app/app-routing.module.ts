@@ -15,11 +15,11 @@ const routes: Routes = [
     path:'listarPensamento',
     component:ListarPensamentoComponent
   },
-  // {
-  //   path:'',
-  //   pathMatch: 'full',
-  //   redirectTo:'listarPensamento'
-  // },
+  {
+    path:'',
+    pathMatch: 'full',
+    redirectTo:'listarPensamento'
+  },
   {
     path:'pensamentos/excluirPensamento/:id',
     component: ExcluirPensamentoComponent
